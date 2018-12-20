@@ -1,0 +1,78 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/nextnote/nextnote",
+    
+   "pages/study/study",
+   
+    "pages/logs/logs",
+    "pages/start/start",
+    "pages/index2/index2",
+    "pages/details/details",
+    "pages/start2/start2",
+   
+   
+     "pages/index1/index1",
+    "pages/splash/splash",
+    "pages/comment/comment",
+    "pages/detail/detail",
+    "pages/setting1/setting1",
+ 
+
+    "pages/video/video",
+    "pages/wen/wen",
+ 
+    "pages/background-audio/background-audio",
+    "pages/start1/start1",
+    "pages/setting/setting",
+    "pages/note/note",
+    "pages/tiaozhuan/tiaozhuan"
+
+  
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#cccc66",
+    "navigationBarTitleText": "",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "心语",
+        "pagePath": "pages/start1/start1",
+        "iconPath": "images/icons/心语.png",
+        "selectedIconPath": "images/icons/心语.png"
+      },
+      
+    {
+      "text": "咸鱼问答",
+      "pagePath": "pages/index/index",
+      "iconPath": "images/icons/咸鱼.png",
+      "selectedIconPath": "images/icons/咸鱼.png"
+    },
+    {
+      "text": "娱乐",
+      "pagePath": "pages/video/video",
+      "iconPath": "images/icons/娱乐.png",
+      "selectedIconPath": "images/icons/娱乐.png"
+    },
+    {
+      "text": "知乎日报",
+      "pagePath": "pages/index1/index1",
+      "iconPath": "images/icons/鱼.png",
+      "selectedIconPath": "images/icons/鱼.png"
+    },
+    
+    {
+      "text": "学习",
+      "pagePath": "pages/study/study",
+      "iconPath": "images/icons/学习.png",
+      "selectedIconPath": "images/icons/学习.png"
+    }
+    
+    ]
+
+  }
+  }
+
