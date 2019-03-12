@@ -1,0 +1,25 @@
+
+  
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" width="355" height="150"/>
+      <image src="{{item}}"  bindtap='click_swiper' class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+  <image class="logo" src="http://img2.qiao88.com/ppt/58pic/13/56/06/87N58PICqTJ.jpg"  ></image>
+
+<view class="weather"> 
+<text id="box1">今天,又是美好的一天！！！\n天气是：\n</text>
+  <text id="box2">{{weatherData}}</text>
+</view>
+<text id="box3">那么，不要辜负了这美好的时光！！！\n开启新的旅程吧！！</text>
+
+<navigator open-type="navigate" url="/pages/index2/index2"><button  style="width:700rpx;height:80rpx;background-color:#e2d140;margin-top:20rpx " bindtap="saveData">咸鱼日历</button></navigator>
+<navigator open-type="navigate" url="/pages/nextnote/nextnote"><button  style="width:700rpx;height:80rpx;background-color:#e2d140;margin-top:20rpx " bindtap="saveData">咸鱼</button></navigator>
+<navigator open-type="navigate" url="/pages/wen/wen"><button  style="width:700rpx;height:80rpx;background-color:#e2d140;margin-top:20rpx " bindtap="saveData">咸鱼问答</button></navigator>
+<navigator open-type="navigate" url="/pages/run/run"><button  style="width:700rpx;height:80rpx;background-color:#e2d140;margin-top:20rpx " bindtap="saveData">跑步呀</button></navigator>
+
+<official-account></official-account>

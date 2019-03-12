@@ -17,18 +17,22 @@
     "pages/comment/comment",
     "pages/detail/detail",
     "pages/setting1/setting1",
- 
-
     "pages/video/video",
     "pages/wen/wen",
- 
+ "pages/log/log",
     "pages/background-audio/background-audio",
     "pages/start1/start1",
     "pages/setting/setting",
     "pages/note/note",
-    "pages/tiaozhuan/tiaozhuan"
+    "pages/tiaozhuan/tiaozhuan",
+    "pages/run/run",
+    "pages/today/today"
+ 
 
   
+  ],
+  "requiredBackgroundModes": [
+    "audio"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -52,17 +56,12 @@
       "selectedIconPath": "images/icons/咸鱼.png"
     },
     {
-      "text": "娱乐",
-      "pagePath": "pages/video/video",
-      "iconPath": "images/icons/娱乐.png",
-      "selectedIconPath": "images/icons/娱乐.png"
-    },
-    {
       "text": "知乎日报",
       "pagePath": "pages/index1/index1",
-      "iconPath": "images/icons/鱼.png",
-      "selectedIconPath": "images/icons/鱼.png"
+      "iconPath": "images/icons/心语.png",
+      "selectedIconPath": "images/icons/心语.png"
     },
+   
     
     {
       "text": "学习",
